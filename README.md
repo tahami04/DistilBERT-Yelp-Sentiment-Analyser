@@ -4,19 +4,6 @@ Fine-tuned DistilBERT transformer model for multi-class sentiment classification
 **Project Overview**
 This project uses the yelp_review_full dataset from Hugging Face and fine-tunes DistilBERT, a lightweight version of BERT, for multi-class sentiment classification (1 to 5 stars). The model classifies customer reviews into five sentiment categories and provides a comprehensive training pipeline with data preprocessing, visualization, and evaluation.
 
-**Repository Structure**
-
-distilbert-yelp-sentiment-analyser/
-│
-├── distilbert-sentiment/           # Saved model & tokenizer (from Google Drive)
-│   ├── config.json
-│   ├── tokenizer_config.json
-│   ├── tokenizer.json / vocab.txt
-│
-├── yelp_sentiment_analysis.ipynb   # Full training notebook (Google Colab)
-├── requirements.txt                # All Python dependencies
-├── README.md                       # Project documentation
-└── .gitignore
 
 **Dataset**
 * Source: Hugging Face Datasets – yelp_review_full
